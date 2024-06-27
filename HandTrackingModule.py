@@ -89,7 +89,7 @@ def findDistance(self, p1, p2, img, draw=True,r=15, t=3):
 def main():
     pTime = 0
     cTime = 0
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     detector = handDetector()
     while True:
         success, img = cap.read()
