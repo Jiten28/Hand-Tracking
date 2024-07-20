@@ -8,3 +8,7 @@ In order to run this program you first need to install some modules:
         (pip install mediapipe)
     • cvzone
         (pip install cvzone)
+
+Process
+To get this program working, first you need to select the camera which can be use by the program to detect the eye's position. 
+Then just run the program and let this code detect the your hand gestures.
