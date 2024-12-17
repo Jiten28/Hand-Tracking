@@ -18,3 +18,49 @@ The Hand Tracking Program leverages computer vision and Mediapipe technology to 
 - **Multi-Hand Support**: Extend support for tracking multiple hands simultaneously.  
 - **Integration with Applications**: Enable integration with games, presentation tools, or smart devices for enhanced interactivity.
 
+### **Steps to Start the Project**  
+
+#### **1. Setup Camera**  
+   - Connect a camera (built-in or external) to your device.  
+   - Ensure the camera is selected correctly for the program to access and detect hand gestures.  
+
+#### **2. Run the Program**  
+   - Execute the script. The program will use the connected camera to detect hand gestures in real-time.  
+
+### **Libraries and Installation Commands**  
+
+1. **OpenCV**  
+   - **Install Command**:  
+     ```bash
+     pip install opencv-python
+     ```  
+   - **Use**: For capturing video from the camera and processing image frames.  
+     ```python
+     import cv2
+     ```
+
+2. **Mediapipe**  
+   - **Install Command**:  
+     ```bash
+     pip install mediapipe
+     ```  
+   - **Use**: For hand detection and tracking using pre-built AI models.  
+     ```python
+     import mediapipe as mp
+     ```
+
+3. **CVZone**  
+   - **Install Command**:  
+     ```bash
+     pip install cvzone
+     ```  
+   - **Use**: Simplifies working with computer vision tasks and adds additional functionality.  
+     ```python
+     import cvzone
+     ```
+
+### **Process**  
+- The program captures video frames using OpenCV.  
+- Mediapipe processes the frames to detect hand positions and gestures.  
+- CVZone integrates functionalities to simplify gesture-based interactions.  
+
