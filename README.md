@@ -18,6 +18,9 @@ The Hand Tracking Program leverages computer vision and Mediapipe technology to 
 - **Multi-Hand Support**: Extend support for tracking multiple hands simultaneously.  
 - **Integration with Applications**: Enable integration with games, presentation tools, or smart devices for enhanced interactivity.
 
+### **Python Version**
+- Python 3.11.9 or higher.
+
 ### **Steps to Start the Project**  
 
 #### **1. Setup Camera**  
